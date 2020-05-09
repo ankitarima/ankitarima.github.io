@@ -59,7 +59,9 @@
 .section-contact-us textarea:focus,
 .single-blog .leave-comment input:focus,
 .single-blog .leave-comment textarea:focus {
-	border-bottom-color: #0487cc;
+	outline: 0px !important;
+    border: none!important;
+	border-bottom: 1px solid #0487cc !important;
 }
 
 .theme-option,

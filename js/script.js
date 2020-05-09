@@ -30,6 +30,9 @@ $(document).on('ready', function(){
 	    paginationClickable: true,
 	    slidesPerView: 3,
 		spaceBetween: 30,
+		autoplay: {
+			delay: 8000,
+		  },
 	    breakpoints: {
 	        1024: {
 	            slidesPerView: 3,
@@ -56,9 +59,9 @@ $(document).on('ready', function(){
 	    paginationClickable: true,
 	    slidesPerView: 6,
 		spaceBetween: 30,
-		// autoplay: {
-		// 	delay: 5000,
-		//   },
+		autoplay: {
+			delay: 8000,
+		  },
 	    breakpoints: {
 	        1024: {
 	            slidesPerView: 5,
